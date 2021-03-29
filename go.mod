@@ -1,4 +1,4 @@
-module github.com/ClickHouse/clickhouse-go
+module github.com/pqx0703/clickhouse-go
 
 go 1.12
 

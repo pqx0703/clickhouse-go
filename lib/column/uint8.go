@@ -1,7 +1,7 @@
 package column
 
 import (
-	"github.com/ClickHouse/clickhouse-go/lib/binary"
+	"github.com/pqx0703/clickhouse-go/lib/binary"
 )
 
 type UInt8 struct{ base }

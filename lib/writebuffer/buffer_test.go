@@ -3,7 +3,7 @@ package writebuffer
 import (
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/lib/leakypool"
+	"github.com/pqx0703/clickhouse-go/lib/leakypool"
 	"github.com/stretchr/testify/assert"
 )
 

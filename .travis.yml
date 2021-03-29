@@ -4,7 +4,7 @@ go:
   - 1.14.x
   - 1.15.x
   - master
-go_import_path: github.com/ClickHouse/clickhouse-go
+go_import_path: github.com/pqx0703/clickhouse-go
 services:
   - docker
 install:
