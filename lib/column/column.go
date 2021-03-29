@@ -164,6 +164,14 @@ func Factory(name, chType string, timezone *time.Location) (Column, error) {
 			},
 			Timezone: timezone,
 		}, nil
+	case strings.HasPrefix(chType, "Map"):
+		return &Map{
+			base: base{
+				name:    name,
+				chType:  chType,
+				valueOf: columnBaseTypes[string("")],
+			},
+		}, nil
 	case strings.HasPrefix(chType, "Array"):
 		return parseArray(name, chType, timezone)
 	case strings.HasPrefix(chType, "Nullable"):
